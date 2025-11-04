@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script 
+        src="https://www.paypal.com/sdk/js?client-id=BAAiYkvgKcwAItLq_aBCHWKk6McbI78VLtCIvVLd4J4G4Vau_5wYSyjRdR8BLSyLSangXz_BCKEawjc85g&components=hosted-buttons&enable-funding=venmo&currency=USD">
+    </script>
+</head>
+<body>
+    <div id="paypal-container-ZUDRD7TB3LS9W"></div>
+        <script>
+            paypal.HostedButtons({
+            hostedButtonId: "ZUDRD7TB3LS9W",
+            }).render("#paypal-container-ZUDRD7TB3LS9W")
+        </script>
+    </body>
+</html>
